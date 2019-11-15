@@ -94,9 +94,54 @@ void add_to_middle(struct list* root, int amountOfUnits)
 	temp->next = unit;
 }
 
+struct list* find_unit(struct list* root, int amountOfUnits)
+{
+	struct list* temp = root;
+	int i;
+	printf("Insert the unit (integer) you wanna find\n");
+	int position;
+	scanf_s("%d", &position);
+	while ((position > amountOfUnits) || (position <= 0))
+	{
+		printf("The integer should be less than amount of units in the list and more than zero!\nInsert your integer again\n");
+		scanf_s("%d", &position);
+	}
+	for (i = 1; i <= position; ++i)
+	{
+		temp = temp->next;
+	}
+	printf("Found value is %d\n", temp->value);
+	return temp;
+}
+
+void delete_unit(struct list* root, int amountOfUnits)
+{
+	printf("Insert the position (integer) of the unit you wanna delete:\n");
+	int position;
+	scanf_s("%d", &position);
+	while ((position > amountOfUnits) || (position <= 0))
+	{
+		printf("The integer should be less than amount of units in the list and more than zero!\nInsert your integer again\n");
+		scanf_s("%d", &position);
+	}
+	printf("Deleting the %d unit...\n", position);
+	struct list* temp1 = root;
+	struct list* temp2 = root;
+	int i;
+	for (i = 1; i < position; ++i)
+	{
+		temp1 = temp1->next;
+	}
+	temp2 = temp1->next->next;
+	printf("Deleting value is %d\n", temp1->next->value);
+	free(temp1->next);
+	temp1->next = temp2;
+	printf("The unit %d was successfully deleted\n", position);
+}
+
 void delete_list(struct list* root)
 {
-	printf("deleting the list...\n");
+	printf("Deleting the list...\n");
 	struct list* temp1;
 	struct list* temp2;
 	temp1 = root->next;
