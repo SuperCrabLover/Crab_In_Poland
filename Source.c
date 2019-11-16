@@ -43,6 +43,35 @@ struct link* add_to_end(struct list* temp, struct list* tail)
 	return tail->next;
 }
 
+//creates an empty list without value (all values are zero)
+void create_bare_list(struct list* root, int amountOfUnits)  
+{
+	int i;
+	struct list* unit;//temporary variable for moving forward through the list
+	struct list* tail = root;//a variable to store the NULL pointer fo add_to_the_end
+	struct list* temp = root;
+	for (i = 0; i < amountOfUnits; ++i)
+	{
+		unit = create_unit(NO_VALUE);
+		tail = add_to_end(unit, tail);
+	}
+}
+
+//inserts value into a list from begining till amountOfUnits
+void insert_value(struct list* root, int amountOfUnits)
+{
+	int i, seed;
+	struct list* temp = root->next;
+	for (i = 0; i < amountOfUnits; ++i)
+	{
+		printf("Insert the %d value of the list\n", i + 1);
+		scanf_s("%d", &seed);
+		temp->value = seed;
+		temp = temp->next;
+	}
+}
+
+//creates list with value in it
 void read_list(struct list* root, int amountOfUnits)
 {
 	int i, seed;
@@ -68,7 +97,6 @@ void print_list(struct list* root)
 		temp = temp->next;
 		++i;
 	}
-
 }
 
 void add_to_middle(struct list* root, int amountOfUnits)
