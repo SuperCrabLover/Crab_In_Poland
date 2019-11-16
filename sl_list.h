@@ -7,6 +7,10 @@ struct list* create_unit(seed);
 //adds a unit into the end of the list
 struct link* add_to_end(struct list* temp, struct list* tail);
 
+void create_bare_list(struct list* root, int amountOfUnits);
+
+void insert_value(struct list* root, int amountOfUnits);
+
 void read_list(struct list* root, int amountOfUnits);
 
 void print_list(struct list* root);
