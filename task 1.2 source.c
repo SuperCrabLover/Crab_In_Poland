@@ -96,7 +96,7 @@ void first_integers(struct list* root, int valueofN)
 		
 	}
 }
-
+//creates list with values from N to 1. The same as previous
 struct list* first_int(int valueofN)
 {
 	struct list *st = NULL;
@@ -120,7 +120,7 @@ struct list* first_int(int valueofN)
 	}
 	return st;
 }
-
+//Print list in the console
 void print_list(struct list* root)
 {	
 	if (root == NULL)
@@ -142,7 +142,7 @@ void print_list(struct list* root)
 		++i;
 	}
 }
-
+// Deletes list
 void delete_list(struct list* root)
 {
 	printf("Deleting the list...\n");
