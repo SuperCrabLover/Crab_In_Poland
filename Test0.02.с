@@ -5,15 +5,7 @@ int Sanya(void) //Classic
 }
 int main(void)                 
 {
-	struct list *rt = NULL;
-	rt = create_root();
-	struct list *un = NULL;
-
-	create_bare_list(rt, 10);
-	insert_value(rt, 3);// Введи значения 1; 2;0.1; При введении дробного числа заканчивается чтение.
-	read_list(un, 5);//введи значение 3 readlist как-то странно работает
-	print_list(rt);
-	print_list(un);
+//Залей файлы в папку Task1.1
 
 return 0;
 }
