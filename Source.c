@@ -24,7 +24,7 @@ struct list* create_root(void)
 	return root;
 }
 
-struct list* create_unit(seed)
+struct list* create_unit(int seed)
 {
 	struct list* unit;
 	unit = (struct list*)malloc(sizeof(struct list));
