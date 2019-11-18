@@ -3,9 +3,9 @@
 
 ## Authors
 
-Kovrizhnuh Dmitrii 
+Molozavenko Alexander - Team Member 1
 
-Molozavenko Alexander
+Kovrizhnuh Dmitrii - Team Member 2
 
 ## Environment
 
