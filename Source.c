@@ -1,5 +1,7 @@
 #define MALLOC_ERROR -1
+#define NULL_ERROR -1
 #define ROOT_VALUE 42
+#define NO_VALUE 0
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -39,6 +41,11 @@ struct list* create_unit(seed)
 //adds a unit into the end of the list
 struct link* add_to_end(struct list* temp, struct list* tail)
 {
+	if (NULL == temp)
+	{
+		printf("add_to_end() error:\nThe pointer to a unit is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	tail->next = temp;
 	return tail->next;
 }
@@ -46,7 +53,17 @@ struct link* add_to_end(struct list* temp, struct list* tail)
 //creates an empty list without value (all values are zero)
 void create_bare_list(struct list* root, int amountOfUnits)  
 {
+	if (NULL == root)
+	{
+		printf("create_bare_list() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	int i;
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("Create_bare_list() error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	struct list* unit;//temporary variable for moving forward through the list
 	struct list* tail = root;//a variable to store the NULL pointer fo add_to_the_end
 	struct list* temp = root;
@@ -60,7 +77,17 @@ void create_bare_list(struct list* root, int amountOfUnits)
 //inserts value into a list from begining till amountOfUnits
 void insert_value(struct list* root, int amountOfUnits)
 {
+	if (NULL == root)
+	{
+		printf("insert_value() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	int i, seed;
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("insert_value() error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	struct list* temp = root->next;
 	for (i = 0; i < amountOfUnits; ++i)
 	{
@@ -74,7 +101,17 @@ void insert_value(struct list* root, int amountOfUnits)
 //creates list with value in it
 void read_list(struct list* root, int amountOfUnits)
 {
+	if (NULL == root)
+	{
+		printf("read_list() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	int i, seed;
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("Read_list error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	struct list* unit;//temporary variable for moving forward through the list
 	struct list* tail = root;//a variable to store the NULL pointer fo add_to_the_end
 	struct list* temp = root;
@@ -89,6 +126,11 @@ void read_list(struct list* root, int amountOfUnits)
 
 void print_list(struct list* root)
 {
+	if (NULL == root)
+	{
+		printf("print_list error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	struct list* temp = root->next;//temporary variables for moving forward through the list
 	int i = 1;
 	while (temp != NULL)
@@ -97,15 +139,26 @@ void print_list(struct list* root)
 		temp = temp->next;
 		++i;
 	}
+
 }
 
 void add_to_middle(struct list* root, int amountOfUnits)
 {
+	if (NULL == root)
+	{
+		printf("add_to_middle() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	int i;
 	struct list* temp = root;
 	int position;
 	printf("Insert the position (integer) for a new unit int the list\n");
 	scanf_s("%d", &position);
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("add_to_middle() error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	while ((position > amountOfUnits) || (position <= 0))
 	{
 		printf("The integer should be less than amount of units in the list and more than zero!\nInsert your integer again\n");
@@ -125,6 +178,16 @@ void add_to_middle(struct list* root, int amountOfUnits)
 
 struct list* find_unit(struct list* root, int amountOfUnits)
 {
+	if (NULL == root)
+	{
+		printf("find_unit() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("find_unit() error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	struct list* temp = root;
 	int i;
 	printf("Insert the unit (integer) you wanna find\n");
@@ -145,6 +208,16 @@ struct list* find_unit(struct list* root, int amountOfUnits)
 
 void delete_unit(struct list* root, int amountOfUnits)
 {
+	if (NULL == root)
+	{
+		printf("delete_unit() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
+	while (amountOfUnits == 0 || amountOfUnits <= 0)
+	{
+		printf("delete_unit() error:\nAmount of units can't be zero or less!\nPlease, reinsert the value:\n");
+		scanf_s("%d", &amountOfUnits);
+	}
 	printf("Insert the position (integer) of the unit you wanna delete:\n");
 	int position;
 	scanf_s("%d", &position);
@@ -170,6 +243,11 @@ void delete_unit(struct list* root, int amountOfUnits)
 
 void delete_list(struct list* root)
 {
+	if (NULL == root)
+	{
+		printf("delete_list() error:\nThe root pointer is NULL!Something is wrong, check the input data!\n");
+		return NULL_ERROR;
+	}
 	printf("Deleting the list...\n");
 	struct list* temp1;
 	struct list* temp2;
