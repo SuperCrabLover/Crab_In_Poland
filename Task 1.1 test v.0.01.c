@@ -17,9 +17,6 @@ int main(void)
 	print_list(root1);
 	delete_unit(root1, 7);
 	delete_list(root1);*/
-	// AHTUNG!!! Все, что находится ниже, есть мерзкий код и багоюз, созданный, чтобы сломать скрипт моего коллеги.
-	//阿雄！下面只剩下一只卑鄙的猫和一件旨在破坏我同事脚本的行李。
-	//यह सब नीचे है, मेरे सहयोगी की स्क्रिप्ट को तोड़ने के लिए डिज़ाइन की गई एक विले बिल्ली और एक सामान है।
 	/*
 	struct list *un = NULL;//Как видишь, я могу удалить лист, а затем прочитать его и вызвать ошибку.
 	un = create_root();
@@ -50,174 +47,7 @@ int main(void)
 	Glad_Valakas = create_root();
 	Glad_Valakas = add_to_end(Glad_Valakas, NULL);
 	*/
-	
-/*RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
-RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT!
 
-ЗАПУСКАЕМ
-░ГУСЯ░▄▀▀▀▄░РАБОТЯГИ░░
-▄███▀░◐░░░▌░░░░░░░
-░░░░▌░░░░░▐░░░░░░░
-░░░░▐░░░░░▐░░░░░░░
-░░░░▌░░░░░▐▄▄░░░░░
-░░░░▌░░░░▄▀▒▒▀▀▀▀▄
-░░░▐░░░░▐▒▒▒▒▒▒▒▒▀▀▄
-░░░▐░░░░▐▄▒▒▒▒▒▒▒▒▒▒▀▄
-░░░░▀▄░░░░▀▄▒▒▒▒▒▒▒▒▒▒▀▄
-░░░░░░▀▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▀▄
-░░░░░░░░░░░▌▌░▌▌░░░░░
-░░░░░░░░░░░▌▌░▌▌░░░░░
-░░░░░░░░░▄▄▌▌▄▌▌░░░░░
-*/
 	/*
 	struct list *posvyat_rt = NULL;
 	posvyat_rt = create_root();
@@ -242,7 +72,7 @@ RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! RT! 
 	struct list *ok_doomer = NULL;
 	ok_doomer = create_root();
 	read_list(ok_doomer, NULL);//Cнова ввести NULL, если это корректно для юзера
-	read_list(ok_doomer, 5);//Что я тебя попрошу сделать? Правильно: 插入空值 (Китайский упрощенный)
+	read_list(ok_doomer, 5);
 	//Вопрос: куда исчез ввод остальных значений?
 	print_list(ok_doomer);
 	*/
