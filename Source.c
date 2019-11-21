@@ -1,5 +1,5 @@
 #define MALLOC_ERROR -1
-#define NULL_ERROR -1
+#define NULL_ERROR NULL
 #define ROOT_VALUE 42
 #define NO_VALUE 0
 #include <stdlib.h>
@@ -41,7 +41,7 @@ struct list* create_unit(int seed)
 //adds a unit into the end of the list
 struct link* add_to_end(struct list* temp, struct list* tail)
 {
-	if (NULL == temp)
+	if (NULL == temp || NULL == tail)
 	{
 		printf("add_to_end() error:\nThe pointer to a unit is NULL!Something is wrong, check the input data!\n");
 		return NULL_ERROR;
@@ -66,7 +66,6 @@ void create_bare_list(struct list* root, int amountOfUnits)
 	}
 	struct list* unit;//temporary variable for moving forward through the list
 	struct list* tail = root;//a variable to store the NULL pointer fo add_to_the_end
-	struct list* temp = root;
 	for (i = 0; i < amountOfUnits; ++i)
 	{
 		unit = create_unit(NO_VALUE);
@@ -89,7 +88,7 @@ void insert_value(struct list* root, int amountOfUnits)
 		scanf_s("%d", &amountOfUnits);
 	}
 	struct list* temp = root->next;
-	for (i = 0; i < amountOfUnits; ++i)
+	for (i = 0; i < amountOfUnits && temp != NULL; ++i)
 	{
 		printf("Insert the %d value of the list\n", i + 1);
 		scanf_s("%d", &seed);
@@ -233,6 +232,13 @@ void delete_unit(struct list* root, int amountOfUnits)
 	for (i = 1; i < position; ++i)
 	{
 		temp1 = temp1->next;
+		if (temp1 == NULL)
+		{
+			printf("delete_unit() error:\nYou have probably inserted wrong position.\nThe position is bigger than amount of units\nPlease insert valid value\n");
+			scanf_s("%d", &position);
+			i = 0;
+			temp1 = root;
+		}
 	}
 	temp2 = temp1->next->next;
 	printf("Deleting value is %d\n", temp1->next->value);
@@ -259,6 +265,6 @@ void delete_list(struct list* root)
 		free(temp1);
 		temp1 = temp2;
 	}
-	free(root);
+	root->next = NULL;
 	printf("deleting finished successfully\n");
 }
