@@ -5,7 +5,7 @@
 
 Molozavenko Alexander - Team Member 1
 
-Kovrizhnuh Dmitrii - Team Member 2
+Kovrizhnuh Dmitrii - Team Member 2 (cool developer)
 
 ## Environment
 
