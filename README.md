@@ -21,6 +21,6 @@ Visual Studio 2017 Enterprise version
 |                       | Task 1.2 implementation             |
 
 
-(Здесь должен быть Джоджо рефренс)
+(Здесь должен быть Джоджо рефренс) :-)
 Разумеется этот файл будет дорабатываться. Спасибо за внимание!
 Crabs will beat everybody up!
