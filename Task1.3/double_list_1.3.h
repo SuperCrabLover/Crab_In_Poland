@@ -25,10 +25,10 @@ int list_del(LIST *l);
 
 int push(LIST *l, int a);
 
-int pop(LIST *list, int *value);
+int pop(LIST *l, int *x);
 
-int unshift(LIST *list, int value);
+int unshift(LIST *l, int a);
 
-int shift(LIST *list, int *value);
+int shift(LIST *l, int *x);
 
 int reverse(LIST *l);
