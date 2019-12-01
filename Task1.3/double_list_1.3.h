@@ -32,4 +32,4 @@ int unshift(LIST *l, int a);
 
 int shift(LIST *l, int *x);
 
-int reverse(LIST *l);
+void reverse(LIST *l);
