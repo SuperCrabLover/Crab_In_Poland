@@ -11,8 +11,8 @@
 typedef struct _LIST_NODE
 {
 	int value;
-	LIST_NODE *prev;
-	LIST_NODE *next;
+	struct _LIST_NODE *prev;
+	struct _LIST_NODE *next;
 } LIST_NODE;
 
 typedef struct _LIST
