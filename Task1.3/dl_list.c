@@ -12,7 +12,7 @@ LIST *list_new()
 	LIST *list = (LIST *)malloc(sizeof(LIST));
 	if (NULL == list)
 	{
-		return 0;
+		exit(-1);
 	}
 	list->first = NULL;
 	return list;
@@ -20,7 +20,21 @@ LIST *list_new()
 
 int list_del(LIST *l)
 {
-
+	if (NULL == l)
+	{
+		return 1;
+	}
+	LIST_NODE *node = l->first;
+	LIST_NODE *tmp;
+	int value = 0;
+	while (pop(l, &value) == 0)
+	{
+		tmp = node->next;
+		free(node);
+		node = tmp;
+	}
+	free(l);
+	return 0;
 }
 
 int push(LIST *l, int a)
@@ -28,7 +42,7 @@ int push(LIST *l, int a)
 	LIST_NODE *new = (LIST_NODE *)malloc(sizeof(LIST_NODE));
 	if (NULL == new)
 	{
-		return 0;
+		return 1;
 	}
 	LIST_NODE *tmp;
 	tmp = l->first;
@@ -39,29 +53,43 @@ int push(LIST *l, int a)
 		tmp = tmp->next;
 	}
 	new->prev = tmp;
-	return 1;
+	return 0;
 }
 
 int pop(LIST *l, int *x)
 {
-
+	if (NULL == l)
+	{
+		return 1;
+	}
+	LIST_NODE *tmp;
+	while (tmp->next != NULL)
+	{
+		tmp = tmp->next;
+	}
+	x = tmp->value;
+	return 0;
 }
 
 int unshift(LIST *l, int a)
 {
 	LIST_NODE *new = (LIST_NODE *)malloc(sizeof(LIST_NODE));
+	if (NULL == new)
+	{
+		return 1;
+	}
 	new->value = a;
 	new->next = l->first;
 	new->prev = NULL;
 	l->first->prev = new;
 	l->first = new;
-	return 1;
+	return 0;
 }
 
 int shift(LIST *l, int *x)
 {
 	x = l->first->value;
-	return 1;
+	return 0;
 }
 
  void reverse(LIST *l)
