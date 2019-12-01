@@ -1,12 +1,11 @@
 /*
- * File:  dl_list.c
- * Brief: Double linked list implementation
- * Created on 01.12.2019
- * Autor: Makarov Gleb
- */
+* File:  dl_list.c
+* Brief: Double linked list implementation
+* Created on 01.12.2019
+* Autor: Makarov Gleb
+*/
 
-#include "dl_list.h"
-#include <stdio.h>
+#include "common.h"
 
 LIST *list_new()
 {
@@ -27,7 +26,7 @@ int list_del(LIST *l)
 int push(LIST *l, int a)
 {
 	LIST_NODE *new = (LIST_NODE *)malloc(sizeof(LIST_NODE));
-  if (NULL == new)
+	if (NULL == new)
 	{
 		return 0;
 	}
@@ -65,7 +64,16 @@ int shift(LIST *l, int *x)
 	return 1;
 }
 
-int reverse(LIST *l)
+ void reverse(LIST *l)
 {
-
+	LIST_NODE *node = l->first;
+	LIST_NODE *tmp;
+	while (node->next != NULL)
+	{
+		tmp = node->next;
+		node->next = node->prev;
+		node->prev = tmp;
+		node = node->prev;
+	}
+	l->first = node;
 }
