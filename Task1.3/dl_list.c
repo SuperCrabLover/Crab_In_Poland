@@ -81,8 +81,11 @@ int unshift(LIST *l, int a)
 	new->value = a;
 	new->next = l->first;
 	new->prev = NULL;
-	l->first->prev = new;
-	l->first = new;
+    if (l->first)
+    {
+        l->first->prev = new;
+    }
+    l->first = new;
 	return 0;
 }
 
@@ -105,3 +108,14 @@ int shift(LIST *l, int *x)
 	}
 	l->first = node;
 }
+
+ void print_dl_list(LIST *l)
+ {
+	 LIST_NODE *node = l->first;
+	 while (node)
+	 {
+		 printf("%d", node->value);
+		 node = node->next;
+	 }
+	 printf("\n");
+ }
