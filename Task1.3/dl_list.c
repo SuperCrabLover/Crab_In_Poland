@@ -26,14 +26,14 @@ int list_del(LIST *l)
 	}
 	LIST_NODE *node = l->first;
 	LIST_NODE *tmp;
-	int value = 0;
-	while (pop(l, &value) == 0)
+	while (node)
 	{
 		tmp = node->next;
 		free(node);
 		node = tmp;
 	}
 	free(l);
+	l = NULL;
 	return 0;
 }
 
@@ -53,6 +53,7 @@ int push(LIST *l, int a)
 		tmp = tmp->next;
 	}
 	new->prev = tmp;
+	tmp->next = new;
 	return 0;
 }
 
@@ -62,12 +63,12 @@ int pop(LIST *l, int *x)
 	{
 		return 1;
 	}
-	LIST_NODE *tmp;
+	LIST_NODE *tmp = l->first;
 	while (tmp->next != NULL)
 	{
 		tmp = tmp->next;
 	}
-	x = tmp->value;
+	*x = tmp->value;
 	return 0;
 }
 
@@ -81,21 +82,21 @@ int unshift(LIST *l, int a)
 	new->value = a;
 	new->next = l->first;
 	new->prev = NULL;
-    if (l->first)
-    {
-        l->first->prev = new;
-    }
-    l->first = new;
+	if (l->first)
+	{
+		l->first->prev = new;
+	}
+	l->first = new;
 	return 0;
 }
 
 int shift(LIST *l, int *x)
 {
-	x = l->first->value;
+	*x = l->first->value;
 	return 0;
 }
 
- void reverse(LIST *l)
+void reverse(LIST *l)
 {
 	LIST_NODE *node = l->first;
 	LIST_NODE *tmp;
@@ -106,16 +107,25 @@ int shift(LIST *l, int *x)
 		node->prev = tmp;
 		node = node->prev;
 	}
+	tmp = node->next;
+	node->next = node->prev;
+	node->prev = tmp;
 	l->first = node;
 }
 
- void print_dl_list(LIST *l)
- {
-	 LIST_NODE *node = l->first;
-	 while (node)
-	 {
-		 printf("%d", node->value);
-		 node = node->next;
-	 }
-	 printf("\n");
- }
+void print_dl_list(LIST *l)
+{
+	if (NULL == l)
+	{
+		printf("Error: Sthis list doesnt exist!");
+		return;
+	}
+	LIST_NODE *node = l->first;
+	printf("(");
+	while (node->next != NULL)
+	{
+		printf("%d, ", node->value);
+		node = node->next;
+	}
+	printf("%d)\n", node->value);
+}
