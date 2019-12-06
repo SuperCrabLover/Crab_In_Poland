@@ -1,21 +1,16 @@
 #pragma once
 
+#include "h_list.h"
 #define N 16
 
-typedef struct _NODE
-{
-	void *number;
-	char *surname;
-} NODE, *PNODE;
-
-NODE hash_map[N];
+LIST *hash_map[N];
 
 void hash_map_init(void);
 
 void hash_map_deinit(void);
 
-unsigned int add(void *number, char *surname);
+void add(char *surname, unsigned long long number);
 
-unsigned int del(void *number);
+unsigned int del(char *surname);
 
-PNODE find(void *number);
+LIST *find(char *surname);
