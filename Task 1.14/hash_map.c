@@ -20,21 +20,12 @@ void hash_map_deinit(void)
 	int i = 0;
 	for (i = 0; i < N; i++)
 	{
-		if (NULL != hash_map[i]->first->value.surname) {
-			free(hash_map[i]->first->value.surname);
+		if (NULL != hash_map[i]) 
+		{
+			list_del(hash_map[i]);
+			hash_map[i] = NULL;
 		}
 	}
-}
-
-char *make_str(char *str)
-{
-	char *new_str = (char *)malloc(sizeof(strlen(str) + 1));
-	if (NULL == new_str)
-	{
-		exit(-1);
-	}
-	strcpy(new_str, str);
-	return new_str;
 }
 
 void add(char *surname, unsigned long long number)
@@ -42,7 +33,7 @@ void add(char *surname, unsigned long long number)
 	unsigned int index = hash(surname);
 	PERSON node;
 	node.number = number;
-	node.surname = make_str(surname);
+	node.surname = surname;
 	if (NULL == hash_map[index])
 	{
 		hash_map[index] = list_new();
@@ -55,23 +46,21 @@ LIST *find(char *surname)
 	unsigned int index = hash(surname);
 	if (NULL != hash_map[index])
 	{
-		return hash_map[index];
+		return find_l(hash_map[index], surname);
 	}
 }
 
-/*
-int del(char *surname)
-{
-unsigned int index = hash(surname);
 
-if (NULL == hash_map[index].surname)
+void del(char *surname)
 {
-return -1;
+	unsigned int index = hash(surname);
+	if (NULL == hash_map[index])
+	{
+		return -1;
+	}
+	if (NULL != hash_map[index])
+	{
+		list_del(hash_map[index]);
+	}
+	hash_map[index] = NULL;
 }
-if (NULL != hash_map[index].surname)
-{
-free(hash_map[index].surname);
-}
-hash_map[index].surname = NULL;
-return index;
-}*/
