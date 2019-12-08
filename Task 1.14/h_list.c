@@ -11,31 +11,48 @@ LIST *list_new()
 	return list;
 }
 
-int list_del(LIST *l)
+void list_del(LIST *l)
 {
 	if (l == NULL)
 	{
-		return 1;
+		return -1;
 	}
 	LIST_NODE *node = l->first;
 	LIST_NODE *tmp;
-	while (node)
+	while (node->next)
 	{
 		tmp = node->next;
 		free(node);
+		node = NULL;
 		node = tmp;
 	}
+	free(node);
+	node = NULL;
 	free(l);
 	l = NULL;
-	return 0;
 }
 
-int unshift(LIST *l, PERSON a)
+LIST *find_l(LIST *l, char *surname)
+{
+	LIST *ans_list = list_new();
+	LIST_NODE *node = l->first;
+	while (node)
+	{
+		if (strcmp(node->value.surname, surname) == 0)
+		{
+			unshift(ans_list, node->value);
+		}
+		node = node->next;
+	}
+	return ans_list;
+}
+
+void unshift(LIST *l, PERSON a)
 {
 	LIST_NODE *new = (LIST_NODE *)malloc(sizeof(LIST_NODE));
 	if (NULL == new)
 	{
-		return 1;
+		return -1;
 	}
 	new->value = a;
 	new->next = l->first;
@@ -45,7 +62,6 @@ int unshift(LIST *l, PERSON a)
 		l->first->prev = new;
 	}
 	l->first = new;
-	return 0;
 }
 
 void print_dl_list(LIST *l)
@@ -53,6 +69,11 @@ void print_dl_list(LIST *l)
 	if (NULL == l)
 	{
 		printf("Error: this list doesnt exist!");
+		return;
+	}
+	if (NULL == l->first)
+	{
+		printf("( )\n");
 		return;
 	}
 	LIST_NODE *node = l->first;
