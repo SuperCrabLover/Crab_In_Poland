@@ -20,10 +20,10 @@ typedef struct _LIST
 
 LIST *list_new();
 
-int list_del(LIST *l);
+void list_del(LIST *l);
 
-int unshift(LIST *l, PERSON a);
+void unshift(LIST *l, PERSON a);
 
-int find_l(LIST *l, PERSON *x);
+LIST *find_l(LIST *l, char *surname);
 
 void print_dl_list(LIST *l);
