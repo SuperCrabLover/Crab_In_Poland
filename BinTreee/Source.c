@@ -55,7 +55,35 @@ node* tree_bfs(node* root)
 	}
 }
 
+node* find_rightleafparent(node* parent, node* root) //goes to the end of the tree (always to the right) from the given element
+{ 
+	
+	if (root == NULL || root->right == NULL)
+	{
+		return parent;
+	}
+	return find_rightleafparent(root, root->right);
+}
 
+node* find_node(node* root, int key)
+{
+	if (root == NULL)
+	{
+		return NULL;
+	}
+	if (root->value > key)
+	{
+		return find_node(root->left, key);
+	}
+	if (root->value < key)
+	{
+		return find_node(root->right, key);
+	}
+	if (root->value == key)
+	{
+		return root;
+	}
+}
 
 node* find_nodeparent(node* parent, node* root, int key) // find_nodeparent(NULL, NODE*, INT) returns NULL if he didn't find any
 {
