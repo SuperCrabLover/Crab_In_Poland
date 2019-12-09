@@ -48,6 +48,7 @@ LIST *find(char *surname)
 	{
 		return find_l(hash_map[index], surname);
 	}
+	return NULL;
 }
 
 
