@@ -17,16 +17,8 @@ int main(void)
 	print_list(root1);
 	delete_unit(root1, 7);
 	delete_list(root1);*/
-	/*
-	struct list *un = NULL;//Как видишь, я могу удалить лист, а затем прочитать его и вызвать ошибку.
-	un = create_root();
-	printf("\n");
-	create_bare_list(un, 10);
-	insert_value(un, 5);
-	print_list(un);
-	delete_list(un);
-	print_list(un);
-	*/
+	
+	
 	/*
 	struct list *Dio = NULL;
 	Dio = create_root();
