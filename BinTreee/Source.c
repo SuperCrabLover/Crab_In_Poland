@@ -142,7 +142,7 @@ void delete_node(node* root, int key)
 	if (deletingNode->left == NULL && NULL != deletingNode->right)
 	{
 		find_nodeparent(ROOT_PARENT, root, deletingNode->value)->right = deletingNode->right;
-		free(deletingNode);
+		//free(deletingNode);// I think it should be there
 		return;
 	}
 	node* rightLeafParent = find_rightleafparent(ROOT_PARENT, deletingNode->left);
@@ -158,6 +158,7 @@ void delete_node(node* root, int key)
 	deletingNode->value = rightLeafParent->right->value;
 	free(rightLeafParent->right);
 	rightLeafParent->right = NULL;
+	//free(deletingNode);// I think it should be there
 	return;
 }
 
