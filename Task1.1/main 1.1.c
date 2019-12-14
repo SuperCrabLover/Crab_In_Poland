@@ -1,4 +1,9 @@
-
+/*
+* main 1.1.c
+* Main for 1.1 task
+* Created 14.11.2019
+* (c) MIPT 2019
+*/
 #include <stdio.h> 
 int main(void)
 {
