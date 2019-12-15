@@ -23,4 +23,6 @@ node* create_node(int x);
 
 node* insert_node(node* n, int x);
 
-void print_node(node* n);
+void deleteTree(node* root);
+
+
