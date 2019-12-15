@@ -1,10 +1,3 @@
-/*
- * File:  Header1.2.h
- * Brief: Definitions for 1.2 task
- * Author: Code squad 1337
- * Created on 18.11.2019
- * (c) MIPT 2019
- */
 #pragma once
 
 struct list* create_root(void);

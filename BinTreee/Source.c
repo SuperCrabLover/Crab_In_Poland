@@ -1,9 +1,3 @@
-/*
- * File:  Source.c
- * Brief: Binary Tree implementation
- * Created on 18.11.2019
- * (c) MIPT 2019
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include "BinTree.h"
