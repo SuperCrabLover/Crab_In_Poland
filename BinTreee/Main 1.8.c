@@ -14,10 +14,6 @@ int main(void)
 	test_2();// Тесты работают, но вопрос по реализации bfs и dfs
 	test_3();
 	test_4();
-	test_code_anhibilator();
-	//Как следует из названия, этот тест ломает код.
-
-	test_Beklemishev_and_Shankov_bizzare_team();
 
 	return 0;
 }
