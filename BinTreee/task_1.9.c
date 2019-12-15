@@ -1,3 +1,9 @@
+/*
+* task_1.9.c
+* task 1.9
+* Created 07.12.2019
+* (c) MIPT 2019
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
