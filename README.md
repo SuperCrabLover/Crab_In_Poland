@@ -3,10 +3,11 @@
 
 ## Authors
 
-Kovrizhnuh Dmitrii 
+Molozavenko Alexander - Team Member 1 (Crab brains developer/Crab tester)
 
-Molozavenko Alexander
+Kovrizhnuh Dmitrii - Team Member 2 (Crab tester/ Crab eyes developer)
 
+Gleb Makarov - Team Member 3 (Crab claws developer/ Crab tester)
 ## Environment
 
 Visual Studio 2017 Enterprise version
@@ -20,4 +21,6 @@ Visual Studio 2017 Enterprise version
 |                       | Task 1.2 implementation             |
 
 
+(Здесь должен быть Джоджо рефренс) :-)
 Разумеется этот файл будет дорабатываться. Спасибо за внимание!
+Crabs will beat everybody up!
