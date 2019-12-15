@@ -1,3 +1,10 @@
+/*	
+ * File:  Header.h 	
+ * Brief: Definitions for header for task 1.8 and 1.9 with BinTree	
+ * Author: Code squad 1337	
+ * Created on 18.11.2019	
+ * (c) MIPT 2019	
+ */
 #pragma once
 
 struct list* create_root(void);
