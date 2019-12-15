@@ -162,10 +162,12 @@ void delete_node(node* root, int key)
 	return;
 }
 
-void print_node(node* n) {
-	if (n == NULL)
-		return -1;
-	print_node(n->left);
-	printf("%d ", n->value);
-	print_node(n->right);
+void deleteTree(node* root)
+{
+	if (root == NULL)
+		return;
+	deleteTree(root->left);
+	deleteTree(root->right);
+	free(root);
 }
+
