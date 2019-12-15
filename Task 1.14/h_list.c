@@ -15,7 +15,7 @@ void list_del(LIST *l)
 {
 	if (l == NULL)
 	{
-		return -1;
+		return;
 	}
 	LIST_NODE *node = l->first;
 	LIST_NODE *tmp;
@@ -52,7 +52,7 @@ void unshift(LIST *l, PERSON a)
 	LIST_NODE *new = (LIST_NODE *)malloc(sizeof(LIST_NODE));
 	if (NULL == new)
 	{
-		return -1;
+		return;
 	}
 	new->value = a;
 	new->next = l->first;
