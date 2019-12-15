@@ -133,6 +133,12 @@ void delete_node(node* root, int key)
 		return -1;
 	}
 	
+	if (deletingNode == root)
+	{
+		printf("deleting_node() error: you are trying to delete root, that's illegal\n");
+		return;
+	}
+	
 	if (deletingNode->left == NULL && deletingNode->right == NULL)
 	{
 		delete_leaf(find_nodeparent(ROOT_PARENT, root, deletingNode->value), deletingNode);
