@@ -1,3 +1,10 @@
+/*
+* Test 1.8.c
+* Test for 1.8 task
+* Created 14.12.2019
+* (c) MIPT 2019
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MALLOC_ERROR -1
