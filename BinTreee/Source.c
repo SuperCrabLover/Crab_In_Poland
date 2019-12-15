@@ -32,8 +32,8 @@ node* tree_dfs(node* root)
 		return;
 	}
 	printf("%d\n", root->value);
-	tree_bfs(root->left);
-	tree_bfs(root->right);
+	tree_dfs(root->left);
+	tree_dfs(root->right);
 }
 
 node* tree_bfs(node* root)
