@@ -1,3 +1,11 @@
+/*
+ * File:  dl_list.h
+ * Brief: Double linked list header
+ * Autor: code squd 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #pragma once
 
 typedef struct _PERSON
