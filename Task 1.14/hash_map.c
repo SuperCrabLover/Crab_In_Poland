@@ -1,3 +1,11 @@
+/*
+ * File:  hash_map.c
+ * Brief: Hah map implementation
+ * Autor: code squad 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #include "common.h"
 
 unsigned int hash(char *surname)
