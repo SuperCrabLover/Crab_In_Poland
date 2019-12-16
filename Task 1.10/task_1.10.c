@@ -1,3 +1,12 @@
+  
+/*
+ * File:  task_1.10.c
+ * Brief: task 1.10 solution
+ * Autor: code squad 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #include "common.h"
 
 void insert(char *name, unsigned long long num)
