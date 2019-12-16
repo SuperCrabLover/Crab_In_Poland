@@ -1,3 +1,10 @@
+/*
+ * File:  small_test.c
+ * Brief: test on base command
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #include "common.h"
 
 int main(void)
