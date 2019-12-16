@@ -1,3 +1,12 @@
+  
+/*
+ * File:  dl_list.c
+ * Brief: Double linked list implementation
+ * Autor: code squad 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #include "common.h"
 
 LIST *list_new()
