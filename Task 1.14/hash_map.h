@@ -1,5 +1,5 @@
 /*
- * File:  dl_list.h
+ * File:  hash_map.h
  * Brief: Hash map header
  * Autor: code squad 1337
  * Created on 16.12.2019
