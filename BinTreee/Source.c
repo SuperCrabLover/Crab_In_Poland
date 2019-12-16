@@ -1,3 +1,12 @@
+  
+/*
+ * File:  Source.c
+ * Brief: Binary tree implementation
+ * Autor: code squad 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "BinTree.h"
