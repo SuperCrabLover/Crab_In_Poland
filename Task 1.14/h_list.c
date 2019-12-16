@@ -1,6 +1,6 @@
   
 /*
- * File:  dl_list.c
+ * File:  h_list.c
  * Brief: Double linked list implementation
  * Autor: code squad 1337
  * Created on 16.12.2019
