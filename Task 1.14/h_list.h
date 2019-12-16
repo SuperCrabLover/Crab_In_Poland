@@ -1,5 +1,5 @@
 /*
- * File:  dl_list.h
+ * File:  h_list.h
  * Brief: Double linked list header
  * Autor: code squd 1337
  * Created on 16.12.2019
