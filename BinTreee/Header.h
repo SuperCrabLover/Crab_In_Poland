@@ -1,3 +1,11 @@
+/*
+ * File:  Header.h
+ * Brief: Binary tree header
+ * Autor: code squad 1337
+ * Created on 16.12.2019
+ * (c) MIPT 2019
+ */
+
 #pragma once
 #define ROOT_PARENT NULL
 
